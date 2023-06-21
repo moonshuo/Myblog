@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cedb53d7-7a00-43d5-9552-5d99ebc82688" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/homeNotice.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/page/notice.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/sliderbar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/sun_moon.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/widget/card_calendar.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/widget/card_poem.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/scripts/helpers/catalog_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/1.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_layout/calendar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_layout/categoryBar.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_layout/sun_moon.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_layout/swiperstyle.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_page/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/bbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/cardlistpost.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/categorybar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/colored-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/dark-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/fontSetting.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/heoMainColor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/light-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/mouse/all-scroll.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/mouse/center-ptr.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/mouse/default.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/mouse/draft.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/mouse/help.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/mouse/no-drop.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/mouse/pointer.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/myStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/poem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/snackbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/swiperstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/css/成功.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/archive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/avatar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/bannerBlack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/categories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/mail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/tags.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/img/valineBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/Valine.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/copy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/font.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/foot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/growl-notification.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/jinrishici.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/sun_moon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/swiper_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/toastr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/universe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/js/weather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/assets/screenshot-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/assets/screenshot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/assets/screenshot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/autoload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/demo/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/live2d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/rollup.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/src/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/src/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/src/tools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/src/waifu-tips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/waifu-tips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/waifu-tips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d-widget-master/waifu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/add/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/get/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/histoire.1024/texture_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/histoire.1024/texture_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/histoire.1024/texture_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/histoire.1024/texture_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/ico_histoire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/model.moc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/idle/NOZOMU_M01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/idle/NOZOMU_M02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/idle/NOZOMU_M04.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/DK_NOZOMU_0011.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/DK_NOZOMU_0041.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/DK_NOZOMU_0061.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/DK_NOZOMU_0067.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/m_06.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/m_13.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/nep_touch_boobs_1.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/tsumiki_m_01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/tsumiki_m_09.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/tsumiki_m_13.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/tsumiki_m_14.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/tsumiki_m_19.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/histoire/motions/tap/tsumiki_m_21.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/Violet.1024/texture_00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/Violet.moc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/idle01.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/idle02.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/idle03.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/idle04.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/start.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/tap_Lhand.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/tap_Rhand.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/tap_body.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/tap_face.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/motions/tap_qunzi.mtn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/sound/start.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/sound/tap_Lhand.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/sound/tap_Rhand.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model/welt/sound/tap_body.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/model_list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/rand/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/rand_textures/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/switch/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/switch_textures/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/tools/jsonCompatible.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/tools/modelList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/tools/modelTextures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/butterfly/source/live2d_api/tools/name-to-lower.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/ISSUE_TEMPLATE/bug_report.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/ISSUE_TEMPLATE/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/ISSUE_TEMPLATE/feature_request.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/workflows/publish.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/archive.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/archive.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/category.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/category.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/head.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/header/nav.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/header/nav.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/mixins/article-sort.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/mixins/article-sort.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/mixins/post-ui.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/mixins/post-ui.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/rightside.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/rightside.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/third-party/comments/valine.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/third-party/comments/valine.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/includes/widget/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/includes/widget/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/post.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/post.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/layout/tag.pug" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/layout/tag.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/scripts/helpers/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/scripts/helpers/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/scripts/tag/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/scripts/tag/timeline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/css/_layout/footer.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_layout/footer.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/css/_page/archives.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_page/archives.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/css/_tags/timeline.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/source/css/_tags/timeline.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/css/index.styl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/source/css/index.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/img/404.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/source/img/404.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/source/img/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/img/friend_404.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/butterfly/source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/butterfly/source/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/butterfly" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PmDDVE75Xbn5F5HKUvp8myZNnf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="cedb53d7-7a00-43d5-9552-5d99ebc82688" name="更改" comment="" />
+      <created>1684053244612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684053244612</updated>
+      <workItem from="1684053246599" duration="5000" />
+      <workItem from="1684053284738" duration="1713000" />
+      <workItem from="1684058568033" duration="1587000" />
+      <workItem from="1684066907828" duration="252000" />
+      <workItem from="1684067166428" duration="367000" />
+      <workItem from="1684154929419" duration="1178000" />
+      <workItem from="1684306563553" duration="1209000" />
+      <workItem from="1684468141526" duration="67000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
