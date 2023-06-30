@@ -1,0 +1,647 @@
+#veditor {
+	background-image: url(../img/valineBg.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: rgba(255, 255, 255, 0);
+	resize: vertical
+}
+
+/* 翻页按钮居中 */
+#pagination {
+	width: 100%;
+	margin: auto;
+}
+
+/* 分类目录条、标签目录条 */
+#catalog-bar {
+	padding: .4rem .8rem;
+	border-radius: var(--border-radius);
+	display: flex;
+	border: var(--card-border);
+	margin-bottom: 1rem;
+	justify-content: space-between;
+}
+
+#catalog-bar:hover {
+	border-color: var(--main);
+}
+
+#catalog-bar i {
+	line-height: inherit;
+}
+
+#catalog-list {
+	/* 分类/标签较少时，可以选择不设置 width，居中显示 catalog-list-item */
+	/* width: 100%; */
+	margin: 0 .5rem;
+	display: flex;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+
+#catalog-list::-webkit-scrollbar {
+	display: none;
+}
+
+.catalog-list-item a {
+	margin: 0 .2em;
+	padding: 0.2em 0.3em 0.3em;
+	font-weight: bold;
+	border-radius: var(--border-radius);
+	color: var(--font-color);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.catalog-list-item:hover a {
+	background: var(--main);
+	color: var(--second);
+}
+
+.catalog-list-item.selected a {
+	background: var(--light-text);
+	color: var(--second);
+}
+
+/*双栏布局*/
+div#menus {
+	font-weight: 700 !important
+}
+
+h1#site-title {
+	font-size: 3em !important;
+	font-weight: 700 !important
+}
+
+a.article-title,
+a.blog-slider__title,
+a.categoryBar-list-link,
+h1.post-title {
+	font-weight: 700 !important
+}
+
+#aside-content>.card-widget.card-info {
+	background-image: url('./bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	background-size: 100%
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-info {
+	background-image: url('./bbg.png') !important
+}
+
+#aside-content>.card-widget.card-info>#card-info-btn {
+	background-color: var(--theme-color);
+	border-radius: 8px
+}
+
+#article-container .aplayer {
+	font-family: var(--global-font) !important
+}
+
+[data-theme=dark] input#pic-link::-webkit-input-placeholder {
+	color: #505050
+}
+
+[data-theme=dark] {
+	--loading-color: rgba(25, 25, 25, 0.92) !important
+}
+
+
+/* 最新文章图标 */
+.newPost-left,
+.newPost-right {
+	position: absolute;
+	top: 0;
+	color: white;
+	padding: 0 15px;
+	background-color: #49b1f5;
+	border-radius: 0 0 10px 10px;
+}
+
+.newPost-left {
+	left: 15px;
+}
+
+.newPost-right {
+	right: 15px;
+}
+
+/*显示标题*/
+#page-name::before {
+	font-size: 18px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	color: white !important;
+	top: 0;
+	left: 0;
+	background-color: var(--lyx-theme);
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	opacity: 0;
+	box-shadow: 0 0 3px var(--lyx-theme);
+	line-height: 45px;
+	/*如果垂直位置不居中可以微调此值，也可以删了*/
+}
+
+#page-name:hover:before {
+	opacity: 1;
+}
+
+@media screen and (max-width:900px) {
+
+	#page-name,
+	#menus {
+		display: none !important;
+	}
+}
+
+#name-container {
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
+#name-container:hover {
+	scale: 1.03
+}
+
+#page-name {
+	position: relative;
+	padding: 10px 30px
+		/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+}
+
+#nav {
+	transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important
+}
+
+
+/* 子菜单横向展示 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+	display: flex !important;
+}
+
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
+.menus_items .menus_item:nth-child(2) .menus_item_child {
+	left: -125px;
+}
+
+/*顶部加载进度条*/
+.pace {
+	pointer-events: none;
+	user-select: none;
+	z-index: 2;
+	position: fixed;
+	margin: auto;
+	top: 4px;
+	left: 0;
+	right: 0;
+	height: 8px;
+	border-radius: 8px;
+	width: 6rem;
+	background: #eaecf2;
+	overflow: hidden;
+}
+
+.pace-inactive .pace-progress {
+	opacity: 0;
+	transition: 0.3s ease-in;
+}
+
+.pace.pace-inactive {
+	opacity: 0;
+	transition: 0.3s;
+	top: -8px;
+}
+
+.pace .pace-progress {
+	box-sizing: border-box;
+	transform: translate3d(0, 0, 0);
+	position: fixed;
+	z-index: 2;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 100%;
+	height: 100%;
+	width: 100%;
+	background: #49b1f5;
+	background: linear-gradient(to right,
+			rgb(18, 194, 233),
+			rgb(196, 113, 237),
+			rgb(246, 79, 89));
+	animation: gradient 2s ease infinite;
+	background-size: 200%;
+}
+
+#nav-right {
+	flex: 1 1 auto;
+	justify-content: flex-end;
+	margin-left: auto;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+	#aside_content div:not(:last-child) {
+		display: none;
+		font-size: 13px;
+	}
+}
+
+.nav-fixed #nav {
+	transform: translateY(58px) !important;
+	-webkit-transform: translateY(58px) !important;
+	-moz-transform: translateY(58px) !important;
+	-ms-transform: translateY(58px) !important;
+	-o-transform: translateY(58px) !important;
+}
+
+#nav {
+	transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+}
+
+.layout {
+	max-width: 1280px;
+}
+
+
+
+
+/* 全局默认鼠标指针 */
+body,
+html {
+	cursor: url('./mouse/default.cur'), auto;
+}
+
+/* 悬停图片时的鼠标指针 */
+img {
+
+	cursor: url('./mouse/all-scroll.cur'), auto;
+}
+
+/* 选择链接标签时的鼠标指针 */
+a:hover {
+	cursor: url('./mouse/center-ptr.cur'), auto;
+}
+
+/* 选中输入框时的鼠标指针 */
+input:hover {
+	cursor: url('./mouse/draft.cur'), auto;
+}
+
+
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover {
+	cursor: url('./mouse/pointer.cur'), auto;
+}
+
+/*最近文章*/
+#recent-posts>.recent-post-item {
+	position: relative;
+}
+
+/* 最新文章图标 */
+.newPost-left,
+.newPost-right {
+	position: absolute;
+	top: 0;
+	color: white;
+	padding: 0 15px;
+	background-color: #49b1f5;
+	border-radius: 0 0 10px 10px;
+}
+
+.newPost-left {
+	left: 15px;
+}
+
+.newPost-right {
+	right: 15px;
+}
+
+/* 页脚与头图透明 */
+#footer {
+	background: transparent !important;
+}
+
+#page-header {
+	background: transparent !important;
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+	background: transparent !important;
+}
+
+#page-header::before {
+	background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+	background: transparent !important;
+}
+
+[data-theme="dark"] #page-header::before {
+	background: transparent !important;
+}
+
+
+/* 文章页H1-H6图标样式效果 */
+/* 控制风车转动速度 4s那里可以自己调节快慢 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+	-webkit-animation: ccc 4s linear infinite;
+	animation: ccc 4s linear infinite;
+}
+
+/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
+@-webkit-keyframes ccc {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(-1turn);
+		transform: rotate(-1turn);
+	}
+}
+
+@keyframes ccc {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(-1turn);
+		transform: rotate(-1turn);
+	}
+}
+
+/* 设置风车颜色 */
+#content-inner.layout h1::before {
+	color: #ef50a8;
+	margin-left: -1.55rem;
+	font-size: 1.3rem;
+	margin-top: -0.23rem;
+}
+
+#content-inner.layout h2::before {
+	color: #fb7061;
+	margin-left: -1.35rem;
+	font-size: 1.1rem;
+	margin-top: -0.12rem;
+}
+
+#content-inner.layout h3::before {
+	color: #ffbf00;
+	margin-left: -1.22rem;
+	font-size: 0.95rem;
+	margin-top: -0.09rem;
+}
+
+#content-inner.layout h4::before {
+	color: #a9e000;
+	margin-left: -1.05rem;
+	font-size: 0.8rem;
+	margin-top: -0.09rem;
+}
+
+#content-inner.layout h5::before {
+	color: #57c850;
+	margin-left: -0.9rem;
+	font-size: 0.7rem;
+	margin-top: 0rem;
+}
+
+#content-inner.layout h6::before {
+	color: #5ec1e0;
+	margin-left: -0.9rem;
+	font-size: 0.66rem;
+	margin-top: 0rem;
+}
+
+/* s设置风车hover动效 6s那里可以自己调节快慢*/
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+	color: var(--theme-color);
+}
+
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+	color: var(--theme-color);
+	-webkit-animation: ccc 6s linear infinite;
+	animation: ccc 6s linear infinite;
+}
+
+/* 背景宇宙星光  */
+#universe {
+	display: block;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	z-index: -1;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	background: var(--global-bg);
+	color: var(--font-color);
+	font-size: var(--global-font-size);
+	line-height: 2;
+	-webkit-tap-highlight-color: transparent
+}
+
+
+a {
+	color: #99a9bf;
+	text-decoration: none;
+	word-wrap: break-word;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	-o-transition: all .2s;
+	-ms-transition: all .2s;
+	transition: all .2s;
+	overflow-wrap: break-word
+}
+
+a:hover {
+	color: #9c9
+}
+
+
+
+:root {
+	--trans-light: rgba(255, 255, 255, 0.88);
+	--trans-dark: rgba(25, 25, 25, 0.88);
+	--border-style: 1px solid rgb(169, 169, 169);
+	--backdrop-filter: blur(5px) saturate(150%);
+}
+
+/* 首页文章卡片 */
+#recent-posts>.recent-post-item {
+	background: var(--trans-light);
+	border-radius: 25px;
+	border: var(--border-style);
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+	background: var(--trans-light);
+	border-radius: 18px;
+	border: var(--border-style);
+}
+
+/* 文章页、归档页、普通页面 */
+div#post,
+div#page,
+div#archive {
+	background: var(--trans-light);
+	border: var(--border-style);
+	border-radius: 20px;
+	--border-style: 2px solid rgb(82, 224, 132);
+}
+
+
+/* 导航栏 */
+#page-header.nav-fixed #nav {
+	background: rgba(255, 255, 255, 0.88);
+}
+
+[data-theme="dark"] #page-header.nav-fixed #nav {
+	background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* 夜间模式遮罩 */
+[data-theme="dark"] #recent-posts>.recent-post-item,
+[data-theme="dark"] #aside-content .card-widget,
+[data-theme="dark"] div#post,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] div#page {
+	background: var(--trans-dark);
+}
+
+
+/* 夜间模式页脚页头遮罩透明 */
+[data-theme="dark"] #footer::before {
+	background: transparent !important;
+}
+
+[data-theme="dark"] #page-header::before {
+	background: transparent !important;
+}
+
+/* 阅读模式 */
+.read-mode #aside-content .card-widget {
+	background: rgba(118, 238, 152, 0.5) !important;
+}
+
+.read-mode div#post {
+	background: rgba(114, 227, 146, 0.5) !important;
+}
+
+/* 夜间模式下的阅读模式 */
+[data-theme="dark"] .read-mode #aside-content .card-widget {
+	background: rgba(25, 25, 25, 0.9) !important;
+	color: #ffffff;
+}
+
+[data-theme="dark"] .read-mode div#post {
+	background: rgba(25, 25, 25, 0.9) !important;
+	color: #ffffff;
+}
+
+#notice-item {
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+  }
+  #notice-item .li-style {
+	width: 100%;
+	height: 25px;
+	font-weight: 500;
+	text-align: center;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	transition: 0.3s;
+  }
+  #noticeList {
+	width: 100%;
+	background: var(--card-bg);
+	color: var(--font-color);
+	margin-top: 1rem;
+	padding: 0.6rem 1rem;
+	border-radius: 12px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+  }
+  #noticeList .nlogo{
+	color: var(--font-color);
+	font-weight: 600;
+	display: inline;
+  }
+  #noticeList .swiper-container{
+	display: flex;
+	flex: 1;
+  }
+  #noticeList i {
+	text-align: right;
+  }
+  .swiper-slide:hover {
+	color: #1fc7b6;
+  }
+
+
+
+
+
+

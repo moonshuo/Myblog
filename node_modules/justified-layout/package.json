@@ -1,0 +1,43 @@
+{
+  "name": "justified-layout",
+  "version": "4.1.0",
+  "description": "Pass in box sizes and get back sizes and coordinates for a justified layout",
+  "keywords": [
+    "justify",
+    "grid",
+    "photos",
+    "layout",
+    "boxes"
+  ],
+  "files": [
+    "demo.html",
+    "dist",
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc mocha",
+    "build": "npm run build-dist && npm run build-min",
+    "build-dist": "mkdir -p dist && browserify -r $npm_package_main:justified-layout > dist/justified-layout.js",
+    "build-min": "uglifyjs dist/justified-layout.js --comments -o dist/justified-layout.min.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flickr/justified-layout.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "coveralls": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-flickr": "^2.0.1",
+    "expect": "1.14.0",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "uglify-js": "^3.9.2"
+  },
+  "dependencies": {}
+}
