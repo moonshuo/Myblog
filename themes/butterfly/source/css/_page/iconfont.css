@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3517692 */
+  /* Color fonts */
+  src: 
+       url('iconfont.woff2?t=1668251715593') format('woff2'),
+       url('iconfont.woff?t=1668251715593') format('woff'),
+       url('iconfont.ttf?t=1668251715593') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tianqitubiao-:before {
+  content: "\e60e";
+}
+
+.icon-xianxingyueliang:before {
+  content: "\e607";
+}
+
+.icon-dianying:before {
+  content: "\e609";
+}
+
+.icon-yinle:before {
+  content: "\e606";
+}
+
+.icon-xiuxian:before {
+  content: "\e62a";
+}
+
+.icon-shuji:before {
+  content: "\e6be";
+}
+
+.icon-QQ1:before {
+  content: "\e667";
+}
+
+.icon-shejiaotubiao-10:before {
+  content: "\e641";
+}
+
+.icon-youxiang:before {
+  content: "\eef8";
+}
+
+.icon-shouye:before {
+  content: "\e6d5";
+}
+
+.icon-biaoqian:before {
+  content: "\e653";
+}
+
+.icon-riqi:before {
+  content: "\e695";
+}
+
+.icon-guanyuwomen:before {
+  content: "\e634";
+}
+
+.icon-fenlei21:before {
+  content: "\f315";
+}
+

@@ -1,0 +1,19 @@
+#noticeList.container
+    .nlogo="公告"
+    .swiper-container
+        #notice-item.swiper-wrapper
+            if site.data.notice
+                each i in site.data.notice
+                    a(href=`${i.href}`,title="查看详情").li-style.swiper-slide=i.date+':'+i.msg
+    a(href="/notice/",title="查看全部公告").i.fas.fa-arrow-circle-right
+.js-pjax
+    script(src='/js/swiper-bundle.min.js',data-pjax='')
+    script.
+        new Swiper('.swiper-container', {
+            direction: 'vertical',
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: true,
+            }
+        })

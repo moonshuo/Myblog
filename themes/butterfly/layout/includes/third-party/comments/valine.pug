@@ -1,0 +1,36 @@
+- let emojiMaps = '""'
+if site.data.valine
+  - emojiMaps = JSON.stringify(site.data.valine)
+
+script.
+  function loadValine () {
+    function initValine () {
+      const valine = new Valine(Object.assign({
+        el: '#vcomment',
+        appId: '#{theme.valine.appId}',
+        appKey: '#{theme.valine.appKey}',
+        avatar: '#{theme.valine.avatar}',
+        serverURLs: '#{theme.valine.serverURLs}',
+        emojiMaps: !{emojiMaps},
+        master: 'ef2aca03b77e6934e3a45ccc751c5e91',   //博主邮箱md5
+        tagMeta: ["色批博主","小伙伴","访客"],     //标识字段名
+        friends:  [],  //小伙伴邮箱Md5
+        path: window.location.pathname,
+        visitor: #{theme.valine.visitor}
+      }, !{JSON.stringify(theme.valine.option)}))
+    }
+
+    if (typeof Valine === 'function') initValine() 
+    else getScript('!{url_for(theme.asset.valine)}').then(initValine)
+  }
+
+  if ('!{theme.comments.use[0]}' === 'Valine' || !!{theme.comments.lazyload}) {
+    if (!{theme.comments.lazyload}) btf.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    function loadOtherComment () {
+      loadValine()
+    }
+  }
+  
+
