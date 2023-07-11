@@ -12,7 +12,7 @@
     "version": "7.0.0-rc1"
   },
   "dependencies": {
-    "hexo": "^7.0.0-rc1",
+    "hexo": "^7.0.0-rc2",
     "hexo-abbrlink": "^2.2.1",
     "hexo-baidu-url-submit": "^0.0.6",
     "hexo-butterfly-article-double-row": "^1.0.2",
